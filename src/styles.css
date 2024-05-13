@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+*,
+body {
+  margin: 5px;
+  box-sizing: border-box;
+  font-family: "Sora";
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#results {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 100%;
+  min-height: 200px;
+}
+
+#result {
+  padding: 5px;
+  background-color: seashell;
+  cursor: pointer;
+}
+
+#result:hover {
+  background-color: lightgrey;
+}
